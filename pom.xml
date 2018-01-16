@@ -74,7 +74,21 @@
 			<layout>p2</layout>
 		</repository>
 	</repositories>
+	
+	<repositories>
+    <repository>
+        <id>Eclipse Paho Repo</id>
+        <url>https://repo.eclipse.org/content/repositories/paho-releases/</url>
+    </repository>
+</repositories>
 
+	<dependencies>
+    <dependency>
+        <groupId>org.eclipse.paho</groupId>
+        <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+        <version>1.2.0</version>
+    </dependency>
+</dependencies>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>cbi</id>
